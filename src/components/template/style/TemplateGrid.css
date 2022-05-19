@@ -1,0 +1,28 @@
+.TemplateGrid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100px 1fr 350px;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    'navbar header footer'
+    'navbar main footer';
+}
+.TemplateGrid__navbar {
+  grid-area: navbar;
+  background: teal;
+  display: flex;
+  flex-direction: column;
+}
+
+.TemplateGrid__header {
+  grid-area: header;
+  background: green;
+}
+.TemplateGrid__main {
+  grid-area: main;
+  /* background: hotpink; */
+}
+.TemplateGrid__footer {
+  grid-area: footer;
+  background: orangered;
+}

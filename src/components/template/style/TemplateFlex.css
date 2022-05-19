@@ -1,0 +1,40 @@
+.TemplateFlex {
+  border: 1px solid red;
+  height: calc(100vh - 2px);
+  background: gray;
+}
+.TemplateFlex__header {
+  background: peru;
+  height: 100px;
+}
+.TemplateFlex__main {
+  display: flex;
+  height: calc(100% - 200px);
+}
+.TemplateFlex__aside {
+  background: orangered;
+  height: 100%;
+  width: 80%;
+}
+.TemplateFlex__article {
+  background: darkolivegreen;
+  height: 100%;
+  width: 30%;
+  /* flex */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 5px;
+  flex-wrap: wrap;
+  /* flex */
+}
+.TemplateFlex__image {
+  width: 150px;
+  height: 150px;
+  border: 1px solid red;
+  background-color: cadetblue;
+}
+.TemplateFlex__footer {
+  background-color: cyan;
+  height: 100px;
+}
